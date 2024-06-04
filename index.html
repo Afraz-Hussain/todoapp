@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do app by Afraz</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex ">
+        <input type="text" class="taskbar" placeholder="Enter Tasks...">
+        <button type="submit" class="taskbtn">Submit tasks</button>
+        <button type="text" class="clearbtn btn" onclick="clearit()">clear list</button>
+        <div class="btnbox">
+            <button class=" btn">Total Tasks <span class="numbtn btn1"></span></button>
+            <button class=" btn">Completed Tasks <span class="numbtn btn2"></span></button>
+            <button class=" btn">Remaining Tasks <span class="numbtn btn3"></span></button>
+        </div>
+        
+    </div>
+    <div class="tasksbox flex"></div>
+
+</body>
+</html>
+<script src="todolist.js"></script>
